@@ -13,6 +13,7 @@ class Transaction extends Model
         'user_id',
         'amount',
         'transacted_at',
+        'description'
     ];
 
     protected $dates = ['transacted_at'];
